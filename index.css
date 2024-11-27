@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    background-color: #462f2f4f;
+
+}
+
+.container {
+    width: 45%;
+    height: 56vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px #cbced1,
+        -12px 12px 20px #ffffff;
+    border: 2px double rgb(72, 255, 0);
+    background-color: rgba(186, 110, 37, 0.8);
+
+}
+
+.display #screen {
+    width: 97%;
+    height: 70px;
+    border: none;
+    outline: none;
+    text-align: right;
+    padding: .5rem;
+    background: #4baaaa;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+        inset -8px -8px -8px #ffffff;
+    color: red;
+    font-size: xx-large;
+
+
+}
+
+.btns {
+    width: 100%;
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #000000,
+        -5px -5px 8px #ffffff;
+    transition: .1s;
+}
+
+.btns .row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, .1),
+        inset -5px -5px 8px #fff;
+    background: #fff;
+}
+
+#eval {
+    background: #33ccff;
+    color: #fff;
+    box-shadow: -2px 4px -1px #66d9ff,
+        -5px -5px 8px #00ace6;
+}
+
+#eval:hover {
+    box-shadow: 5px 5px 8px#00ace6,
+        -5px -5px 8px #00ace6;
+}
+
+#ac {
+    background: #33cc33;
+    color: #fff;
+}
+
+#ac:hover {
+    box-shadow: 5px 5px 8px#2eb82e,
+        -5px -5px 8px #33cc33;
+}
+
+#ce {
+    background: #ff3399;
+    color: #fff;
+}
+
+#ce:hover {
+    box-shadow: 5px 5px 8px#e60073,
+        -5px -5px 8px #ff3399;
+}
+
+#size {
+    font-size: 15px;
+    background-color: yellow;
+}
+
+ #ram #col #sss #size #sixe1 #sixe2 #sixe3:hover {
+    padding: 4px;
+}
+
+#col {
+    font-size: 15px;
+    background-color: rgba(112, 44, 44, 0.637);
+
+}
+
+#sixe1 {
+    font-size: 15px;
+    background-color: #d89f9f;
+
+}
+
+#sixe2 {
+    font-size: 15px;
+    background-color: rgb(160, 139, 18);
+}
+
+#sixe3 {
+    font-size: 15px;
+    background-color: rgba(51, 38, 38, 0.671);
+}
+
+#sss {
+    font-size: 15px;
+    background-color: rgba(218, 48, 181, 0.432);
+    text-shadow: #2eb82e;
+}
+#ram{
+background-color: rgba(75, 75, 74);
+}
+.screensize {
+    font-weight: 100px;
+}
+.styal{
+    width:20vw;
+}
